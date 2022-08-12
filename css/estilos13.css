@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:'Open Sans Condensed';
+	background-image: url(../img/iuem.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -2;
+}
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	padding: 20px 30px;
+	position: relative;
+	z-index: 99;
+	opacity: 0.8;
+}
+header{
+	position: relative;
+	height: auto;
+
+}
+header .menu{
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+}
+header .logo{
+	color: rgba(253, 254, 254, 0.8);
+	float: left;
+	font-size: 35px;
+	line-height: 70px;
+	color: white;
+}
+}
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+float: left;
+}
+
+header nav ul li a{
+	color: rgba(242, 243, 244, 0.7);
+	text-decoration: none;
+	display: block;
+	font-size: 21px;
+	padding: 0 25px;
+	line-height: 60px; /el tamaño de altura del nav o menu/
+}
+
+header nav ul li:hover{
+	color: rgba(242, 243, 244, 0.7);
+}
+
+header nav ul li a:hover{
+	color: #ffffff;
+}
+
+.texto {
+	color: #ffffff;
+	position: relative;
+	padding: 200px 0;
+	text-align: center;
+	font-weight: 800;
+	text-shadow: 4px 3px 0px #7A7A7A;
+}
+
+.texto h2, .texto p{
+	display: inline-block;
+	padding: 5px 20px ;
+}
+
+.texto h2{
+	font-size: 70px;
+	letter-spacing: 2px;
+}
+
+.texto p {
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.principal{
+	position: relative;
+	color: #000000;
+}
+
+.principal article{
+	padding: 20px;
+	background: #ffffff;
+	margin-bottom: 15px;
+}
+
+.principal article p{
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+.principal article .fecha{
+	color: #939393;
+}
+
+.social-links{
+	list-style: none;
+}
+
+.social-links ul{
+	padding: 10px;
+	width: 300px;
+	height: 30px;
+	margin: auto;
+	display: flex;
+
+}
+.social-items{
+	list-style: none;
+}
+
+.social-items a{
+	padding: 10px 19px;
+	font-size: 35px;
+	color: #ffffff;
+	transition: all;
+	align-items: center;
+}
+.social-items a:hover{
+	color: darkblue;
+}
+.social-links{
+	color: white;
+	display: flex;
+}
+.outer-footer{
+	margin-top: 35px;
+	top: 25px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	background-color: black;
+}
+
+.outer-footer a{
+	color: white;
+	text-decoration: none;
+}
